@@ -1,18 +1,30 @@
+
+/*esto se me hace bien declarado ya que todo el documento requiere "helvetica" como tipo de fuente,
+yo declare:
+h1,
+h2,
+h3,
+p{
+    font-family:Helvetica;  
+}
+*/
+
 *{
     font-family: Helvetica;
-}
+} 
 h1{
     font-size:100px;
     font-weight: bold;
     color:khaki;
     background-image: url(../images/pattern.jpeg);
 }
-
+/*Aqui lo declaraste a "h2", yo lo hice a la clase ".item" pero creo es el mismo resultado*/
 h2{
     font-size: 32px;
     color: white;
     font-weight: bold;
 }
+/*Para estos 3 puntos los colores de fondo de los items, yo me lo declare con id  #brushes,#frames,#paint ya que son Id y no Clases, pero me extraña como los declareste tu... ¿te funciono?*/
 
 h2.brushes{
     background-color: mediumspringgreen;  
